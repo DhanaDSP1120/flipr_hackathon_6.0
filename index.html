@@ -61,7 +61,7 @@ Most people (about 80%) recover from the disease without needing hospital treatm
 					<div id ="active">
 						
 					</div>
-                   <h3 style="color: blue"><u>Recorved Cases :</u></h3>
+                   <h3 style="color: blue"><u>Recovered Cases :</u></h3>
 						<div id ="recover">
 						
 					</div>
@@ -284,7 +284,7 @@ function notify()
 		var j="<div class=\"divbox\"><div id=\"parg\"><h3 style=\"text-align: center;\"><u>Notifications & advisories</u></h3><p>Stop missing important updates about how COVID-19 is affecting your country and where you live.</p></div><table id=\"table\" style=\"table-layout: fixed; width: 100%\"></table></div>";
 		document.getElementById('first').innerHTML=j;
 	var parg="";
-	var temp="<thead><tr><th>S.No</th><th>State Name</th><th>Helpline Number</th></tr></thead><tbody>";
+	var temp="<thead><tr><th>Date </th><th>Notification Title</th><th>Link</th></tr></thead><tbody>";
 	var temp1="<div></div>";
 	document.getElementById('second').innerHTML=temp1;
 fetch('https://api.rootnet.in/covid19-in/notifications')
